@@ -235,7 +235,7 @@ body {
   border-color: black;
   border-radius: 5px;
   border-style: solid;
-  background-image: url("C:\Users\shour\Documents\My_Projects\Car_Price_Prediction\frontend\public\car.png");
+  background-image: url("/car.png");
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
