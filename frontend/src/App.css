@@ -1,0 +1,278 @@
+.krishna {
+  font-size: 35px;
+  font-weight: 7px;
+  text-align: center;
+  text-decoration: solid;
+
+
+  background: linear-gradient(
+    270deg,
+    #ff0000,   
+    #ff5e00,  
+    hsl(56, 100%, 50%),
+    #00ff4c9f,
+    #00ff00,
+    rgb(200, 0, 255),
+    rgb(221, 255, 0),
+    rgb(255, 171, 2)
+  );
+
+
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: krishnaFlow 5s ease infinite;
+}
+
+@keyframes krishnaFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+
+/* The above CSS is fully done my AI....Not me */
+
+
+
+
+
+
+
+
+body {
+  background-color: rgb(255, 247, 0);
+  
+}
+
+.header {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e3a8a,
+    #3b82f6
+  );
+  color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: solid;
+  background-image: url("/car.png");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.sub{
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(132, 255, 0);
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.restart {
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.restart:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.clr {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: pink;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.sub:hover {
+  background-color: green;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.clr:hover {
+  background-color: magenta;
+}
+
+.buttons {
+  padding: 10px 0;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.sub:disabled {
+  background-color: red;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.row {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  text-shadow:
+    0 0 5px #000000,
+    0 0 10px #000000,
+    0 0 50px #000000;
+}
+
+.set {
+  align-items: center ;
+  border: 3px solid black;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e3a8a,
+    #3b82f6
+  );
+  color: white;
+}
+
+.features {
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: red;
+  text-align: center;
+  
+}
+
+.subtitle {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.row2 {
+  justify-content: center;
+  margin-left: 2%;
+}
+
+.line {
+  width: 60%;
+  height: 4px;
+  border: none;
+  margin: 0 auto 30px;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    #ff0000,
+    transparent
+  );
+}
+
+.know {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+  font-size: 17px;
+}
+
+.output-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: solid;
+  background-image: url("C:\Users\shour\Documents\My_Projects\Car_Price_Prediction\frontend\public\car.png");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.output {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  display: grid;
+  row-gap: 10px;
+  color: black;
+}
+
+.out-row {
+  display: grid;
+  grid-template-columns: 140px auto;
+  align-items: center;
+}
+
+.label {
+  font-weight: 600;
+  display: flex;
+}
+
+.value::before {
+  content: ": ";
+  font-weight: bold;
+
+}
+
+.value {
+  padding-left: 10px;
+}
